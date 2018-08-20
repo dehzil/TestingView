@@ -1,0 +1,87 @@
+/* Css Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.7;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  height: 583px;
+  position: relative;
+  background: url('../../../assets/img/bitmap@3x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo-box {
+  position: absolute;
+  top: 240.6px;
+  /* increase 30px from mockup  */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 76px;
+}
+
+.logo img {
+  width: 389.8px;
+  height: 56.7px;
+}
+
+.text-box {
+  position: absolute;
+  height: 230px;
+  top: 444px;
+  /* increase 100px from mockup  */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  padding-bottom: 23px;
+}
+
+.email-recovery-input input {
+  border-radius: 16px;
+  border: solid 1px #c7c5c8;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
+
+.small-heading {
+  height: 16px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding-top: 41px;
+  font-weight: 300;
+  text-align: center;
+  color: var(--white);
+  padding-bottom: 23px;
+}
+
+.small-heading:hover {
+  color: var(--brand-gold);
+  font-weight: 400;
+}
