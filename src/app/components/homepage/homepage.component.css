@@ -22,7 +22,7 @@ img {
 .banner {
   height: 583px;
   position: relative;
-  background: url('../../../assets/img/bitmap@3x.png');
+  background: url('../../../assets/img/blue.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
