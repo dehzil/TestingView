@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --warm-grey: #808080;
+  --white: #ffffff;
+  --brand-gold: #eecd83;
+  --input-outline: #c7c5c8;
+  --btn-dark: #13252f;
+  --btn-light: #00c2ff;
+  --text-link: #006098;
+  --light-bg: #f8f8f8;
+}
+
+/* Css Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 16px;
+  height: 100vh;
+}
